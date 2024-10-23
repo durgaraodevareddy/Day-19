@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body>
+<h1></h1>
+<p id="demo"></p>
+let x=""
+<script>
+const student= {
+course:btech;
+branch:cse;
+data:[
+{name:"ravi",loc:[hyd,kkd,rjm]}
+{name:"kiran",loc:[pvp,ndd,tpg]}
+]};
+for(let i in student.data)
+{
+x+="<h1>"+student.data[i].name+"</h1>";
+for(let j in student.data[i].loc)
+{
+x+="<h6>"+student.data[i].loc[j]+"</h6>";
+}
+}
+document.getElementById("demo").innerHTML=x;
+</script>
+</body>
+</html>
